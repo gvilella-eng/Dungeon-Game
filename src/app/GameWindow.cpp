@@ -9,8 +9,22 @@
 #include <QWheelEvent>
 #include <QPainter>
 #include <QImage>
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+#include <QOpenGLVersionFunctionsFactory>
+#endif
 
 static const float kFovY = 68.f;
+
+// Qt 6 trocou pos()/localPos() por position(); este helper compila nos dois.
+static inline QPointF mousePosF(const QMouseEvent* e)
+{
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    return e->position();
+#else
+    return e->localPos();
+#endif
+}
+static inline QPoint mousePos(const QMouseEvent* e) { return mousePosF(e).toPoint(); }
 
 static QString sanitize(const QString& s)
 {
@@ -41,7 +55,12 @@ GameWindow::~GameWindow()
 
 void GameWindow::initializeGL()
 {
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    auto* f = QOpenGLVersionFunctionsFactory::get<QOpenGLFunctions_3_3_Core>(context());
+#else
     auto* f = context()->versionFunctions<QOpenGLFunctions_3_3_Core>();
+#endif
+    if (!f) { outLine(QStringLiteral("ERRO: contexto OpenGL 3.3 core indisponível.")); return; }
     f->initializeOpenGLFunctions();
     GL = f;
     outLine(QStringLiteral("OpenGL: %1 | %2").arg(QString::fromLatin1((const char*)GL->glGetString(GL_RENDERER))).arg(QString::fromLatin1((const char*)GL->glGetString(GL_VERSION))));
@@ -297,7 +316,11 @@ void GameWindow::saveScreenshot()
     GL->glReadBuffer(GL_BACK);
     GL->glPixelStorei(GL_PACK_ALIGNMENT, 1);
     GL->glReadPixels(0, 0, pw, ph, GL_RGBA, GL_UNSIGNED_BYTE, img.bits());
+#if QT_VERSION >= QT_VERSION_CHECK(6, 9, 0)
+    img = img.flipped(Qt::Vertical);
+#else
     img = img.mirrored(false, true);
+#endif
     QString path = QCoreApplication::applicationDirPath() + "/screenshot_" + QDateTime::currentDateTime().toString("yyyyMMdd_hhmmss") + ".png";
     img.save(path);
     m_world.state.toast(QStringLiteral("Captura salva: ") + QFileInfo(path).fileName(), QColor(200, 255, 200), 3.f);
@@ -420,7 +443,7 @@ void GameWindow::mousePressEvent(QMouseEvent* e)
 {
     if (m_phase != Phase::Playing) return;
     if (e->button() == Qt::LeftButton) {
-        if (m_ui.overview) { m_ovDrag = true; m_ovLast = e->pos(); m_ovPress = e->pos(); }
+        if (m_ui.overview) { m_ovDrag = true; m_ovLast = mousePos(e); m_ovPress = mousePos(e); }
         else if (!m_captured && !menuOpen()) setCaptured(true);
     }
 }
@@ -428,16 +451,16 @@ void GameWindow::mousePressEvent(QMouseEvent* e)
 void GameWindow::mouseReleaseEvent(QMouseEvent* e)
 {
     if (m_phase != Phase::Playing || e->button() != Qt::LeftButton) return;
-    bool wasDrag = m_ovDrag && (e->pos() - m_ovPress).manhattanLength() > 5;
+    bool wasDrag = m_ovDrag && (mousePos(e) - m_ovPress).manhattanLength() > 5;
     m_ovDrag = false;
     if (wasDrag) return;
-    if (menuOpen() || m_ui.overview) m_hud.click(e->localPos());
+    if (menuOpen() || m_ui.overview) m_hud.click(mousePosF(e));
 }
 
 void GameWindow::mouseMoveEvent(QMouseEvent* e)
 {
     if (m_ovDrag && m_ui.overview) {
-        QPoint d = e->pos() - m_ovLast; m_ovLast = e->pos();
+        QPoint d = mousePos(e) - m_ovLast; m_ovLast = mousePos(e);
         m_ovYaw -= d.x() * 0.4f;
         m_ovPitch = clampf(m_ovPitch + d.y() * 0.4f, -89.f, 89.f);
     }

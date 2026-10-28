@@ -1,4 +1,4 @@
-// A Chama Primordial - explorador 3D da masmorra (Qt 5.15 + OpenGL 3.3 core).
+// A Chama Primordial - explorador 3D da masmorra (Qt 5.15 ou Qt 6 + OpenGL 3.3 core).
 #include "app/CommandLine.h"
 #include "app/GameWindow.h"
 #include "app/Validator.h"
