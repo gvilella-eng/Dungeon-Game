@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Dungeon3DArchitecture",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Dungeon3DArchitecture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dungeon3DArchitecture-Release-f4116d91985f9f5d24dc.json",
+					"name" : "Dungeon3DArchitecture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dungeon3DArchitecture_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dungeon3DArchitecture_autogen-Release-01704d0600c13d85e8dc.json",
+					"name" : "Dungeon3DArchitecture_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dungeon3DArchitecture_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dungeon3DArchitecture_autogen_timestamp_deps-Release-11958b3399a1ab71b12d.json",
+					"name" : "Dungeon3DArchitecture_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/build/Desktop_Qt_5_15_2_MinGW_64_bit-Release",
+		"source" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,3 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\Dungeon3DArchitecture.dir/objects.a
+C:\Qt\Tools\mingw810_64\bin\ar.exe qc CMakeFiles\Dungeon3DArchitecture.dir/objects.a @CMakeFiles\Dungeon3DArchitecture.dir\objects1.rsp
+C:\Qt\Tools\mingw810_64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\Dungeon3DArchitecture.dir/objects.a -Wl,--no-whole-archive -o Dungeon3DArchitecture.exe -Wl,--out-implib,libDungeon3DArchitecture.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Dungeon3DArchitecture.dir\linkLibs.rsp

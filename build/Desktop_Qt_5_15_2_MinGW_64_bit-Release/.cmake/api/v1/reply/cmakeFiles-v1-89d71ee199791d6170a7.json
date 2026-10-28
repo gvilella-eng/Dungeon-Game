@@ -1,0 +1,334 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/*.cpp",
+			"paths" : 
+			[
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/app/CommandLine.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/app/GameWindow.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/app/SelfTest.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/app/Validator.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Dungeon.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer0_Exterior.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer1_Gameplay.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer1_Geometry.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer1_Goblins.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer1_Pois.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer1_Props.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer2_Pit.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer3_Camp.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer3_Fissure.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer3_Fungus.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer3_Veins.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer3_Vents.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer3b_Labyrinth.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer4_Geode.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer5_Parasite.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Prefabs.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/StressLevel.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/TestLevel.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/game/GameState.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/game/Player.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/main.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/DebugDraw.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/GpuMesh.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/Materials.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/MeshBuilder.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/Particles.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/PostFx.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/Renderer.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/Shader.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/ui/Hud.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/world/Mesher.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/world/Sdf.cpp",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/world/World.cpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/*.h",
+			"paths" : 
+			[
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/app/CommandLine.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/app/GameWindow.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/app/SelfTest.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/app/Validator.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Dungeon.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer1_Common.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer2_Util.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Layer3_Parts.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/content/Prefabs.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/game/GameState.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/game/Player.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/DebugDraw.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/GpuMesh.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/Materials.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/MeshBuilder.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/Particles.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/PostFx.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/Renderer.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/render/Shader.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/ui/Hud.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/world/Gameplay.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/world/Geom.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/world/Mesher.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/world/Noise.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/world/Sdf.h",
+				"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/src/world/World.h"
+			],
+			"recurse" : true
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_5_15_2_MinGW_64_bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_5_15_2_MinGW_64_bit-Release/CMakeFiles/3.30.5/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_5_15_2_MinGW_64_bit-Release/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_5_15_2_MinGW_64_bit-Release/CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QInsightTrackerPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake"
+		},
+		{
+			"path" : "resources/resources.qrc"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/build/Desktop_Qt_5_15_2_MinGW_64_bit-Release",
+		"source" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

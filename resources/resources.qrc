@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>shaders/world.vert</file>
+        <file>shaders/world.frag</file>
+        <file>shaders/fullscreen.vert</file>
+        <file>shaders/bloom_down.frag</file>
+        <file>shaders/bloom_up.frag</file>
+        <file>shaders/composite.frag</file>
+        <file>shaders/particle.vert</file>
+        <file>shaders/particle.frag</file>
+        <file>shaders/line.vert</file>
+        <file>shaders/line.frag</file>
+        <file>shaders/beam.vert</file>
+        <file>shaders/beam.frag</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,36 @@
+{
+	"BUILD_DIR" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/build/Desktop_Qt_5_15_2_MinGW_64_bit-Release/Masmorra_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/build/Desktop_Qt_5_15_2_MinGW_64_bit-Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/build/Desktop_Qt_5_15_2_MinGW_64_bit-Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon",
+	"CMAKE_SOURCE_DIR" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/build/Desktop_Qt_5_15_2_MinGW_64_bit-Release/Masmorra_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/shaders/line.frag",
+		"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/shaders/particle.vert",
+		"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/shaders/beam.vert",
+		"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/shaders/world.frag",
+		"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/shaders/bloom_down.frag",
+		"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/shaders/bloom_up.frag",
+		"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/shaders/composite.frag",
+		"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/shaders/line.vert",
+		"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/shaders/fullscreen.vert",
+		"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/shaders/particle.frag",
+		"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/shaders/beam.frag",
+		"C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/shaders/world.vert"
+	],
+	"LOCK_FILE" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/build/Desktop_Qt_5_15_2_MinGW_64_bit-Release/CMakeFiles/Masmorra_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/5.15.2/mingw81_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/build/Desktop_Qt_5_15_2_MinGW_64_bit-Release/CMakeFiles/Masmorra_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "C:/Users/gabriel.costa/Documents/Pessoal/Dungeon/resources/resources.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}
